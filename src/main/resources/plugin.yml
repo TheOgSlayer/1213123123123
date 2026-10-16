@@ -1,0 +1,9 @@
+name: Nametags
+main: dev.nametags.NametagsPlugin
+version: 1.0.0
+api-version: '1.21'
+softdepend: [Vault]
+commands:
+  nametag:
+    description: Open the nametag settings
+    aliases: [nametags]
